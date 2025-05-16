@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VEX Squad - Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background-color: #0f0f0f;
+      color: #e0d8f7;
+      line-height: 1.6;
+    }
+    header, footer {
+      background-color: #1a0f2c;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: #9b59b6;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+      color: #c39bd3;
+    }
+    .logo img {
+      max-width: 200px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: #1a0f2c;
+      padding: 40px 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px #9b59b6;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3rem;
+      color: #9b59b6;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      color: #e0d8f7;
+    }
+    .button {
+      display: inline-block;
+      margin: 10px 15px;
+      padding: 15px 30px;
+      background: #9b59b6;
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+      font-size: 1.2rem;
+      box-shadow: 0 0 8px #9b59b6aa;
+    }
+    .button:hover {
+      background: #c39bd3;
+      box-shadow: 0 0 12px #c39bd3cc;
+    }
+    footer p {
+      font-size: 1rem;
+      color: #8880aa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="VEX Squad Logo" />
+    </div>
+    <nav>
+      <a href="index.html" style="text-decoration: underline;">Home</a>
+      <a href="about.html">About</a>
+      <a href="what-we-do.html">What We Do</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Welcome to VEX Squad</h1>
+    <p>Your ultimate Fortnite community — compete, connect, and create with friends!</p>
+    <a href="https://discord.gg/tr2kxJYH" target="_blank" class="button">Join our Discord</a>
+    <a href="https://www.youtube.com/@vexalexv" target="_blank" class="button">Watch on YouTube</a>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 VEX Squad. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VEX Squad - About</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background-color: #0f0f0f;
+      color: #e0d8f7;
+      line-height: 1.6;
+    }
+    header, footer {
+      background-color: #1a0f2c;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: #9b59b6;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+      color: #c39bd3;
+    }
+    nav a.active {
+      text-decoration: underline;
+      color: #c39bd3;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: #1a0f2c;
+      padding: 40px 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px #9b59b6;
+    }
+    h1 {
+      font-size: 3rem;
+      color: #9b59b6;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+      color: #e0d8f7;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    footer p {
+      font-size: 1rem;
+      color: #8880aa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="what-we-do.html">What We Do</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>About VEX Squad</h1>
+    <p>VEX Squad is a Fortnite-focused gaming community created by me and my friend to bring together gamers who love competing and having fun.</p>
+    <p>Since 2025, we've grown into a tight-knit squad that values teamwork, positivity, and building each other up in and out of the game. We focus on Fortnite but also enjoy branching out to other exciting and sometimes crazy games.</p>
+    <p>Whether you want to improve your skills, watch awesome streams, or just chill with friendly players, VEX Squad is the place for you. Our community is all about support, sharing tips, and creating memorable gaming moments together.</p>
+    <p>Join us and be part of a squad that plays hard, laughs hard, and wins together!</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 VEX Squad. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VEX Squad - What We Do</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background-color: #0f0f0f;
+      color: #e0d8f7;
+      line-height: 1.6;
+    }
+    header, footer {
+      background-color: #1a0f2c;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: #9b59b6;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+      color: #c39bd3;
+    }
+    nav a.active {
+      text-decoration: underline;
+      color: #c39bd3;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: #1a0f2c;
+      padding: 40px 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px #9b59b6;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3rem;
+      color: #9b59b6;
+      margin-bottom: 25px;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+      color: #e0d8f7;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .links a {
+      display: inline-block;
+      margin: 20px 15px;
+      padding: 15px 30px;
+      background: #9b59b6;
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+      font-size: 1.2rem;
+      box-shadow: 0 0 8px #9b59b6aa;
+    }
+    .links a:hover {
+      background: #c39bd3;
+      box-shadow: 0 0 12px #c39bd3cc;
+    }
+    footer p {
+      font-size: 1rem;
+      color: #8880aa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="what-we-do.html" class="active">What We Do</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>What We Do</h1>
+    <p>At VEX Squad, Fortnite is our main battlefield. We spend hours dropping into the island, building crazy forts, and battling it out to secure those Victory Royales. Whether you’re mastering your builds, honing your aim, or strategizing with the squad, Fortnite is where we shine.</p>
+    <p>But we don’t stop there — we also love to mix things up with some wild and crazy games! From fun party games to unexpected indie hits, our squad enjoys exploring new games that bring laughter, chaos, and fresh challenges.</p>
+    <p>We regularly organize game nights, tournaments, and community events that give everyone a chance to compete, collaborate, and just have a blast. Whether you’re in for the serious Fortnite grind or the fun of unpredictable games, VEX Squad has something for you.</p>
+    <p>Want to join the fun? Hop on our Discord or check out our YouTube channel to see what we’re up to!</p>
+    <div class="links">
+      <a href="https://discord.gg/tr2kxJYH" target="_blank">Join our Discord</a>
+      <a href="https://www.youtube.com/@vexalexv" target="_blank">Watch our YouTube</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 VEX Squad. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+  <footer>
+    <p>&copy; 2025 VEX Squad. All rights reserved.</p>
+  </footer>
+</body>
+</html>
